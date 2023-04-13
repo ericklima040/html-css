@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');  /*fonte <h1>*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap'); /*fonte <p>*/
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');/*fonte <h2>*/
+*
+{
+    font-family:inherit;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(173, 36, 36),black);
+}
+    
+main{
+        background-color: white;
+        width: 900px;
+        padding: 10px;
+        margin: auto;
+        border-radius: 40px;
+        box-shadow: 5px 5px 15px rgb(240, 240, 240);
+}
+   h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Patua One', cursive;
+    font-size: 40px;
+    color: rgb(189, 30, 30);
+
+   
+    }
+   
+   a{
+    font-family: fantasy;
+    font-size: 30px;
+    ;
+   }
+
+   p{
+    text-indent: 50px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 16px;
+   }
+
+   h2{
+    font-family:'Gruppo', cursive;
+    font-weight: bold; 
+    font-size: 30px;  
+   }
+
+   .volta{
+    font-weight: normal;
+    text-decoration:none;
+    
+    
+   
+   }
+
+   
